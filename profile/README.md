@@ -31,7 +31,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 Для Windows:
 ```powershell
-powershell -c "irm bun.sh/install.ps1|iex"
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 И потом Python через него скачать:
