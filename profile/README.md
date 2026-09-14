@@ -39,3 +39,17 @@ powershell -c "irm bun.sh/install.ps1|iex"
 uv python install
 ```
 
+Поставить **Git**
+
+https://git-scm.com/install/
+
+Установить **GitHub CLI**
+
+https://cli.github.com/
+
+Авторизоваться в gh-cli:
+
+```
+gh login
+```
+
