@@ -6,5 +6,36 @@
 
 #### Установка приложений
 
-Скачать Opencode - приложение для вайбкодинга 
+Скачать **Opencode** - приложение для вайбкодинга 
+
 https://opencode.ai/ru/download
+
+Установить **Bun** - рантайм для Typescript
+
+Для Linux, macOS:
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+
+Для Windows:
+```powershell
+powershell -c "irm bun.sh/install.ps1|iex"
+```
+
+Установить **uv**
+
+Для Linux, macOs:
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Для Windows:
+```powershell
+powershell -c "irm bun.sh/install.ps1|iex"
+```
+
+И потом Python через него скачать:
+```
+uv python install
+```
+
