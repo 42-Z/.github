@@ -16,6 +16,8 @@
 Главная ветка `main`. Это код приложения, который лежит на сайте. Чтобы сделать обновление, надо создать от нее ответвление, 
 отредактироать файлы, сделать коммиты и создать pull request (запрос на слияние в main)
 
+У каждого нашего приложения есть Проект - доска с задачами. Issue - это карточка задачи
+
 ### Установка приложений
 
 Скачать **Opencode** - приложение для вайбкодинга 
@@ -65,3 +67,8 @@ https://cli.github.com/
 gh login
 ```
 
+Выдать нужные права:
+
+```
+gh auth refresh -h github.com -s repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,gist,notifications,user,project,delete_repo,write:packages,read:packages,delete:packages,admin:gpg_key,codespace,workflow,admin:enterprise,read:audit_log,offline_access
+```
