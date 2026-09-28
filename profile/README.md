@@ -54,6 +54,32 @@ curl -fsSL https://bun.sh/install | bash
 powershell -c "irm bun.sh/install.ps1|iex"
 ```
 
+**Node.js** 
+
+Linux, macOS:
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.8/install.sh | bash
+\. "$HOME/.nvm/nvm.sh"
+nvm install 24
+```
+
+Windows:
+```powershell
+winget install OpenJS.NodeJS.LTS
+```
+
+**Braintrust CLI** для трейсинга
+
+Linux, macOS:
+```bash
+curl -fsSL https://bt.dev/cli/install.sh | bash
+```
+
+Windows:
+```powershell
+powershell -ExecutionPolicy Bypass -c "irm https://github.com/braintrustdata/bt/releases/latest/download/bt-installer.ps1 | iex"
+```
+
 Установить **uv**
 
 Для Linux, macOs:
